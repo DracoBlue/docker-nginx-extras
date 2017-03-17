@@ -4,7 +4,7 @@ MAINTAINER DracoBlue <JanS@DracoBlue.de>
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C && \
     echo "deb http://ppa.launchpad.net/nginx/development/ubuntu trusty main" >> /etc/apt/sources.list
 
-ENV NGINX_VERSION 1.11.5-0+trusty3
+ENV NGINX_VERSION 1.11.9-0+trusty0
 
 RUN apt-get update && \
     apt-get install -y ca-certificates nginx-extras=${NGINX_VERSION} && \
