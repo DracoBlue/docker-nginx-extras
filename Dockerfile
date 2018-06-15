@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER DracoBlue <JanS@DracoBlue.de>
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C && \
-    echo "deb http://ppa.launchpad.net/nginx/development/ubuntu trusty main" >> /etc/apt/sources.list
+    echo "deb http://ppa.launchpad.net/nginx/development/ubuntu xenial main" >> /etc/apt/sources.list
 
 ENV NGINX_VERSION 1.13.12-1+xenial0
 
