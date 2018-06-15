@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER DracoBlue <JanS@DracoBlue.de>
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C && \
